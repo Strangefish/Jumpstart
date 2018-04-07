@@ -1,0 +1,22 @@
+/*Temp*/
+
+div {
+  border: 1px solid blue;
+}
+
+/* Universal  */
+
+html {
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+
+/* Header */
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
