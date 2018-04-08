@@ -20,8 +20,53 @@ html {
 }
 
 .logo {
-  float:right;
   flex: 2;
   text-align: right;
+}
 
+
+
+.active a {
+  color: #399bd1;
+}
+
+a {
+  color: darkgrey;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.nav > li > a:hover {
+    background-color: white;
+    color: #399bd1;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  margin-top: 54px;
+  background-image: url('../images/jumbotron-bike.jpg');
+  background-size: cover;
+  background-position: centerright;
+  padding: 11.85rem 0rem;
+  text-align: center;
+}
+
+.btn {
+  width: 11.4rem;
+  padding: 1.3rem 0;
+  margin-top: 2.8rem;
+  background-color: #399bd1;
+}
+
+.banner {
+  width: 51.3rem;
+  margin: auto;
+  color: white;
+  text-shadow: -1px -1px 0 #000;
+}
+
+.banner h1 {
+  font-family: 'Monoton';
+  font-size: 7.1rem;
 }
