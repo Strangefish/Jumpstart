@@ -11,9 +11,7 @@ html {
   font-size: 14px;
 }
 
-main {
-  padding: 0 15px;
-}
+
 /* Header */
 
 .container {
@@ -63,40 +61,97 @@ a {
   padding: 1.3rem 0;
   margin-top: 2.8rem;
   background-color: #399bd1;
+  font-family: 'Open Sans';
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+  background-color: #399bd1;
+}
+
+.btn:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
 .banner {
   width: 51.3rem;
   margin: auto;
   color: white;
-  text-shadow: -1px -1px 0 #000;
+
 }
 
 .banner h1 {
   font-family: 'Monoton';
   font-size: 7.1rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.banner p {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /* Featured Project */
 
-main h2 {
+main {
+  padding: 0 100px;
+}
+
+main h3 {
   font-size: 1.7rem;
   font-weight: bold;
   color: #399bd1;
   margin-bottom: 20px;
 }
 
-.descriptions h3 {
+main h4 {
   font-size: 1.3rem;
   font-weight: bold;
 }
 
-.descriptions p {
+main p {
   line-height: 1.4;
   color: rgba(0, 0, 0, 0.7);
+}
+
+.categories h4 {
+  color: #399bd1;
 }
 
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+/* Projects */
+
+.projects {
+  padding-bottom: 5.85rem;
+}
+
+.projects img {
+  opacity: 0.7;
+}
+
+
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  padding: 5.2rem 0;
+  background-color: #f3f3f3;
+}
+
+footer p {
+  width: 42rem;
+  margin: auto;
+  padding-top: 1.4rem;
+}
+
+
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
 }
