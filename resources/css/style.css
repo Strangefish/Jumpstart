@@ -11,6 +11,9 @@ html {
   font-size: 14px;
 }
 
+main {
+  padding: 0 15px;
+}
 /* Header */
 
 .container {
@@ -24,6 +27,9 @@ html {
   text-align: right;
 }
 
+.navbar {
+  background-color: white;
+}
 
 
 .active a {
@@ -69,4 +75,28 @@ a {
 .banner h1 {
   font-family: 'Monoton';
   font-size: 7.1rem;
+}
+
+/* Featured Project */
+
+main h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  margin-bottom: 20px;
+}
+
+.descriptions h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.descriptions p {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
