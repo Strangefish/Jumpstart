@@ -11,10 +11,10 @@ html {
   font-size: 14px;
 }
 
-.img-responsive {
+/* .img-responsive {
   max-width: 100%;
   height: auto;
-}
+} */
 
 
 
@@ -151,24 +151,74 @@ main li {
 
 }
 
+@media only screen and (min-width: 1745px) {
+  .image-container img {
+    width: 200%;
+    height: auto;
+    object-fit: cover;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    main {
+    padding: 0 100px;
+    }
+
+    .medium-view {
+    display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 769px) {
+
+    main {
+    padding: 0 15px;
+  }
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 548px) {
+
+    .image-container img {
+      width: 1199px;
+      max-height: 480px;
+      object-fit: cover;
+    }
+  }
+
 @media only screen and (max-width: 768px) and (min-width: 471px) {
   main {
-    padding: 0;
+    padding: 0 15px;
   }
 
   .nav {
   padding-left: 15px;
-}
+  }
 
 }
 
 @media only screen and (max-width: 470px) {
+
   main {
     padding: 0;
   }
 
+  .container {
+    padding: 0;
+  }
+
   .nav {
-  padding-left: 15px;
+  padding-left: 30px;
+}
+
+.container h3,
+.container h4,
+.container p {
+  padding: 0 15px;
 }
 
   img.brand {
