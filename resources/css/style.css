@@ -21,14 +21,14 @@ html {
 /* Header */
 
 .container {
-  display: flex;
-  align-items: center;
+  display: inline-block;
   width: 100%;
 }
 
 .logo {
   flex: 2;
   text-align: right;
+  padding: 15px 0;
 }
 
 .navbar {
@@ -55,17 +55,39 @@ a {
 
 .jumbotron {
   margin-top: 54px;
-  background-image: url('../images/jumbotron-bike.jpg');
-  background-size: cover;
-  background-position: centerright;
-  padding: 11.85rem 0rem;
+  padding: 0;
   text-align: center;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  color: white;
+  margin-bottom: 0;
+
+}
+
+.jumbotron-bike {
+  background-image: url('../images/jumbotron-bike.jpg');
+
+}
+
+.jumbotron-beer {
+  background-image: url('../images/jumbotron-beer.jpg')
+}
+
+.jumbotron-flowers {
+  background-image: url('../images/jumbotron-flowers.jpg');
+
+}
+
+.jumbotron-duffel {
+  background-image: url('../images/jumbotron-duffel.jpg');
 }
 
 .btn {
   width: 11.4rem;
   padding: 1.3rem 0;
   margin-top: 2.8rem;
+  margin-bottom: 11.85rem;
   background-color: #399bd1;
   font-family: 'Open Sans';
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
@@ -80,21 +102,17 @@ a {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
-.banner {
-  width: 51.3rem;
-  margin: auto;
-  color: white;
-
-}
-
-.banner h1 {
+.jumbotron h1 {
   font-family: 'Monoton';
   font-size: 7.1rem;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  padding-top: 11.85rem;
 }
 
-.banner p {
+.jumbotron p {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  max-width: 51.3rem;
+  margin: auto;
 }
 
 /* Featured Project */
@@ -188,6 +206,8 @@ main li {
       max-height: 480px;
       object-fit: cover;
     }
+
+
   }
 
 @media only screen and (max-width: 768px) and (min-width: 471px) {
@@ -197,6 +217,14 @@ main li {
 
   .nav {
   padding-left: 15px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .jumbotron {
+    margin-top: 139px;
   }
 
 }
@@ -215,17 +243,21 @@ main li {
   padding-left: 30px;
 }
 
+.jumbotron {
+  margin-top: 139px;
+}
+
 .container h3,
 .container h4,
 .container p {
   padding: 0 15px;
 }
 
-  img.brand {
+  .logo {
   display: none;
 }
 
-  .banner h1 {
+.jumbotron h1 {
     font-size: 5.7rem;
   }
 
