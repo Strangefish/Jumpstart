@@ -245,6 +245,7 @@ main li {
 
 .jumbotron {
   margin-top: 139px;
+  min-height: 739px;
 }
 
 .container h3,
@@ -260,7 +261,6 @@ main li {
 .jumbotron h1 {
     font-size: 5.7rem;
   }
-
 
 }
 

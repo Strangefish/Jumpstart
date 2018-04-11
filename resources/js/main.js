@@ -16,4 +16,12 @@ $(document).ready(function() {
     adaptiveHeight: true,
   });
 
+  $('.navbar').animate({top: '-' + z}, 150);
+
 });
+
+var scrollDistance = 0
+
+.scroll('body')
+
+var y = $(this).scrollTop();
